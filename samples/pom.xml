@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>alexa-skills-kit-samples</groupId>
-  <artifactId>alexa-skills-kit-samples</artifactId>
+  <groupId>DIVAS</groupId>
+  <artifactId>DIVAS</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
   <name>Alexa Skills Kit Samples</name>
@@ -19,67 +19,61 @@
     <dependency>
       <groupId>com.amazon.alexa</groupId>
       <artifactId>alexa-skills-kit</artifactId>
-      <version>1.3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-server</artifactId>
-      <version>9.0.6.v20130930</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-servlet</artifactId>
-      <version>9.0.6.v20130930</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.10</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.10</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.directory.studio</groupId>
       <artifactId>org.apache.commons.io</artifactId>
-      <version>2.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-lambda-java-core</artifactId>
-      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-lambda-java-log4j</artifactId>
-      <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-dynamodb</artifactId>
-      <version>1.9.40</version>
     </dependency>
+    <dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-java-sdk</artifactId>
+	</dependency>
+
   </dependencies>
 
   <properties>
@@ -134,4 +128,68 @@
       </plugins>
     </pluginManagement>
   </build>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>com.amazon.alexa</groupId>
+  			<artifactId>alexa-skills-kit</artifactId>
+  			<version>1.3.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.jetty</groupId>
+  			<artifactId>jetty-server</artifactId>
+  			<version>9.0.6.v20130930</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.jetty</groupId>
+  			<artifactId>jetty-servlet</artifactId>
+  			<version>9.0.6.v20130930</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>log4j</groupId>
+  			<artifactId>log4j</artifactId>
+  			<version>1.2.17</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.slf4j</groupId>
+  			<artifactId>slf4j-api</artifactId>
+  			<version>1.7.10</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.slf4j</groupId>
+  			<artifactId>slf4j-log4j12</artifactId>
+  			<version>1.7.10</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.apache.commons</groupId>
+  			<artifactId>commons-lang3</artifactId>
+  			<version>3.4</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.apache.directory.studio</groupId>
+  			<artifactId>org.apache.commons.io</artifactId>
+  			<version>2.4</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.amazonaws</groupId>
+  			<artifactId>aws-lambda-java-core</artifactId>
+  			<version>1.0.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.amazonaws</groupId>
+  			<artifactId>aws-lambda-java-log4j</artifactId>
+  			<version>1.0.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.amazonaws</groupId>
+  			<artifactId>aws-java-sdk-dynamodb</artifactId>
+  			<version>1.9.40</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>com.amazonaws</groupId>
+  			<artifactId>aws-java-sdk</artifactId>
+  			<version>1.2.1</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
