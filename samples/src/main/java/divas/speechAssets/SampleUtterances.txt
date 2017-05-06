@@ -1,0 +1,58 @@
+HelloWorldIntent say hello
+HelloWorldIntent say hello world
+HelloWorldIntent hello
+HelloWorldIntent say hi
+HelloWorldIntent say hi world
+HelloWorldIntent hi
+HelloWorldIntent how are you
+
+UpgradeListIntent where am I in the upgrade list
+UpgradeListIntent how many people are in the upgrade list
+UpgradeListIntent tell me my position in the upgrade list
+UpgradeListIntent tell me the upgrade list
+UpgradeListIntent about the upgrade list
+
+PlanMyTripIntent Open and plan my trip
+PlanMyTripIntent tell me about my trip
+PlanMyTripIntent summarize my trip
+
+FlightStatusIntent check my flight status
+FlightStatusIntent how is my flight
+FlightStatusIntent see if my flight is on schedule
+
+TSAStatusIntent check the security line
+TSAStatusIntent how long is the security line
+TSAStatusIntent what is the wait time at the security line 
+TSAStatusIntent how long does it take to go through the security line
+ 
+SSRIntent add wheel chair assistance request to my trip
+SSRIntent add wheel chair to my trip
+SSRIntent add wheel chair to my travel
+
+TrackFlightIntent for flight {DeltaFlightNumber}
+
+TrackConnectingFlightIntent when is my connecting flight
+TrackConnectingFlightIntent where is my connecting gate
+TrackConnectingFlightIntent when will boarding start for my flight
+
+
+BoardingTimeReminderIntent remind me {BoardingTimeReminderDuration} before the boarding time
+
+
+
+OrderRideIntent order me a ride
+OrderRideIntent order me a UBER
+OrderRideIntent order me a lift
+OrderRideIntent order me a taxi
+OrderRideIntent get me a ride
+OrderRideIntent get me a UBER
+OrderRideIntent get me a lift
+OrderRideIntent get me a taxi
+
+
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
+

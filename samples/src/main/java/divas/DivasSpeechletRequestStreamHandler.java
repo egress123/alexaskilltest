@@ -21,7 +21,7 @@ import com.amazon.speech.speechlet.lambda.SpeechletRequestStreamHandler;
  * this project using the {@code lambda-compile} Ant task and upload the resulting zip file to power
  * your function.
  */
-public final class HelloWorldSpeechletRequestStreamHandler extends SpeechletRequestStreamHandler {
+public final class DivasSpeechletRequestStreamHandler extends SpeechletRequestStreamHandler {
     private static final Set<String> supportedApplicationIds = new HashSet<String>();
     static {
         /*
@@ -31,7 +31,7 @@ public final class HelloWorldSpeechletRequestStreamHandler extends SpeechletRequ
         supportedApplicationIds.add("amzn1.ask.skill.ad8793bd-ea1b-405b-981d-f65fdc002f3b");
     }
 
-    public HelloWorldSpeechletRequestStreamHandler() {
-        super(new HelloWorldSpeechlet(), supportedApplicationIds);
+    public DivasSpeechletRequestStreamHandler() {
+        super(new DivasSpeechlet(), supportedApplicationIds);
     }
 }

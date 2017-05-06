@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent"
+    },
+    {
+      "intent": "UpgradeListIntent"
+    },
+    {
+      "intent": "PlanMyTripIntent"
+    },
+    {
+      "intent": "FlightStatusIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "BoardingTimeReminderDuration",
+          "type": "AMAZON.DURATION"
+        }
+      ],
+      "intent": "BoardingTimeReminderIntent"
+    },
+    {
+      
+      "intent": "TSAStatusIntent"
+    },
+    {
+      "intent": "OrderRideIntent"	
+    },
+    {
+    	"intent": "SSRIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "DeltaFlightNumber",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ],
+      "intent": "TrackFlightIntent"
+    },
+    {
+    	"intent": "TrackConnectingFlightIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
